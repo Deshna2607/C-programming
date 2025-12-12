@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    // Write C code here
+    int num,min=9;
+    scanf("%d",&num);
+    while(num>0){
+        int d = num %10;
+        if(d<min)min=d;
+        num/=10;
+    }
+    printf("%d",min);
+    return 0;
+}
