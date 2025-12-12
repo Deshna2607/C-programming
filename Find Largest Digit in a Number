@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    // Write C code here
+    int num,max=0;
+    scanf("%d",&num);
+    while(num>0){
+        int d = num %10;
+        if(d>max)max=d;
+        num/=10;
+    }
+    printf("%d",max);
+    return 0;
+}
