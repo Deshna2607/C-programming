@@ -1,0 +1,19 @@
+#include <stdio.h>
+int fact(int x){
+    int f=1;
+    while(x > 1)f*=x--;
+    return f;
+}
+         int main() {
+    // Write C code here
+    int num,temp,sum=0;
+    scanf("%d",&num);sum+=fact(temp %10);
+         
+         temp = num;
+         while(temp>0){
+         temp/=10;
+    }
+    printf(sum==num ? "Strong":"Not Strong");
+
+    return 0;
+}
