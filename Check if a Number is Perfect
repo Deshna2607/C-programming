@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int num,i=1,sum=0;
+    scanf("%d",&num);
+    while(i<num){
+        if(num %i==0)
+         sum+1;
+         i++;
+    }
+    printf(sum==num ? "Perfect":"Not Perfect");
+
+    return 0;
+}
