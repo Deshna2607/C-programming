@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int num,temp,sum=0;
+    scanf("%d",&num);
+    temp = num;
+    while(temp>0){
+        int d=temp %10;
+         sum+=d*d*d;
+         temp/=10;
+    }
+    printf(sum==num ? "Armstrong":"Not Armstrong");
+
+    return 0;
+}
