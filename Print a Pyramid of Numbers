@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    // Write C code here
+    int n,i=1,j,k;
+    scanf("%d",&n);
+    while(i<=n) {
+        j = n-1;
+        while(j--) printf("");
+        k = 1;
+        while(k<=i){
+            printf("%d",k);
+            k++;
+        }
+         printf("\n");
+         i++;
+    }
+    
+    return 0;
+}
